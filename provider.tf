@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket = "ananthagiri-state-dev1"
-    key    = "eksctl"
+    key    = "eksctl-1"
     region = "us-east-1"
     dynamodb_table = "ananthagiri-lock-dev"
   }
